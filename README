@@ -1,11 +1,9 @@
-Fancy prime generation !
------------------------------------
-It was an outsourcing task :P
-It was can be used to visualize the sieve method of prime generation with proper GUI.
-There are threads representing the "filters" of sieve and interthread communication is managed with java Pipes :)
+Fancy prime generation:
+-----------------------
+There are threads representing the "filters" of sieve and interthread communication is managed with Java Pipes
+It can be used to visualize the sieve method of prime generation with proper GUI
 
 Usage:
-- Generator class holds the "main" method
-- put the limit (upto which primes you need) in the first argument
-i.e. "java Generator 1000" prints the primes under 1000
+- "java Generator [MAX_NUMBER]"
+- For example, run "java Generator 1000" for the primes below 1000
 
